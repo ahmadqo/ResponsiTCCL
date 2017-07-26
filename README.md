@@ -1,8 +1,8 @@
 # RESPONSI Teknologi Cloud Computing Lanjut
 ## Dockerise aplikasi PHP menggunakan Nginx dan PHP7-FPM
 
-  ### Nginx (baca: engine x) adalah sebuah server HTTP dan reverse proxy bebas berbasis open-source yang berkemampuan tinggi, juga dapat digunakan sebagai server proxy IMAP/POP3.
-  ### PHP-FPM adalah modul yang digunakan nginx agar halaman web yang berbasis nginx bisa membuka halaman yang menggunakan php, berikut ini tutorialnya.
+  #### Nginx (baca: engine x) adalah sebuah server HTTP dan reverse proxy bebas berbasis open-source yang berkemampuan tinggi, juga dapat digunakan sebagai server proxy IMAP/POP3.
+  #### PHP-FPM adalah modul yang digunakan nginx agar halaman web yang berbasis nginx bisa membuka halaman yang menggunakan php, berikut ini tutorialnya.
 
 ## docker-compose.yml
   Ini digunakan untuk menjalankan image Nginx dan untuk membuka port 80 dan 8080.
