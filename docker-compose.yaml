@@ -1,0 +1,11 @@
+version: '2'
+FROM responsitccl
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./webku:/var/www/html/
+    networks:
+      - default
